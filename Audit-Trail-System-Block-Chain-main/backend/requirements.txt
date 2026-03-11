@@ -1,0 +1,10 @@
+pymongo
+python-dotenv
+motor
+fastapi
+uvicorn
+pydantic
+openpyxl
+pandas
+python-multipart
+xlrd

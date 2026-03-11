@@ -1,0 +1,73 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+backend/venv/
+backend/env/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# Frontend specific
+frontend/audit-trail-system/dist/
+frontend/audit-trail-system/build/
+frontend/audit-trail-system/.vite/
+
+# Blockchain specific
+blockchain/cache/
+blockchain/artifacts/
+blockchain/deployments/
+blockchain/typechain-types/
+
+# Hardhat
+coverage/
+coverage.json
+.coverage_artifacts/
+.coverage_cache/
+.coverage_contracts/
+
+# MongoDB
+*.log
+
+# Test coverage
+.nyc_output/
+htmlcov/
+.pytest_cache/
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
